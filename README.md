@@ -205,23 +205,6 @@ python auth_pwn.py --help
 python auth_pwn.py https://httpbin.org --auto-attack
 ```
 
-### Code Style
-- Follow PEP 8 guidelines
-- Add type hints where possible
-- Include docstrings for new functions
-- Test your changes before submitting
-
-## Roadmap
-
-- [ ] JWT Algorithm Confusion attacks (RS256 → HS256)
-- [ ] SAML XML Signature Wrapping (XSW) attacks
-- [ ] OAuth PKCE bypass techniques
-- [ ] Support for additional authentication mechanisms (Kerberos, NTLM)
-- [ ] Web interface for easier usage
-- [ ] Integration with Burp Suite extensions
-- [ ] Docker container support
-- [ ] Automated report generation
-
 ## Troubleshooting
 
 ### Common Issues
